@@ -30,10 +30,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'https://lopezalejand-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
+    'https://lopezalejand-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'  # noqa: E501
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'https://lopezalejand-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
+    'https://lopezalejand-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'  # noqa: E501
 ]
 
 REST_FRAMEWORK = {
@@ -115,7 +115,10 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME':
         'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
-]# Internationalization
+]
+
+
+# Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
